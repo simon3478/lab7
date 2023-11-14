@@ -6,13 +6,13 @@
 
     public double getBillablelAmount(){
 
-        double base = _units * _rate;
+        double base = aDouble * _rate;
         double tax= base * Site.TAX_RATE;
         return base + tax;}
 
      @Override
      protected double getBaseAmount() {
-         double base = _units * _rate;
+         double base = aDouble * _rate;
         return base;
      }
 

@@ -1,10 +1,10 @@
  class Site {
-     protected double _units;
+     protected double aDouble;
 
     protected    double _rate;
     protected static double TAX_RATE = 0;
     public Site(double unit, double rate, double tax_rate){
-        this._units=unit;
+        this.aDouble =unit;
         this._rate=rate;
         this.TAX_RATE=tax_rate;
 

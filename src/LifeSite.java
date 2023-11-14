@@ -7,13 +7,13 @@
 
     public double getBillablelAmount(){
 
-        double base = _units * _rate * 0.5;
+        double base = aDouble * _rate * 0.5;
         double tax= base * Site.TAX_RATE * 0.2;
         return base + tax;
     }
     @Override
     protected double getBaseAmount(){
-        return _units * _rate * 0.5;
+        return aDouble * _rate * 0.5;
     }
     @Override
     protected double getTaxAmount(){
