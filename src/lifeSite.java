@@ -1,7 +1,7 @@
- class LifeSite extends Site{
+ class lifeSite extends Site{
 
 
-    public LifeSite(double unit, double rate, double tax_rate) {
+    public lifeSite(double unit, double rate, double tax_rate) {
         super(unit, rate, tax_rate);
     }
 
