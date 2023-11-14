@@ -10,11 +10,11 @@
 
     }
     public double getBillablelAmount(){
-        return getBaseAmount() + getTaxAmount();
+        return getbaseamount() + getTaxAmount();
     }
 
 
-    protected double getBaseAmount(){
+    protected double getbaseamount(){
         return 0;
     }
 

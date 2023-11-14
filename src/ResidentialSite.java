@@ -11,7 +11,7 @@
         return base + tax;}
 
      @Override
-     protected double getBaseAmount() {
+     protected double getbaseamount() {
          double base = aDouble * _rate;
         return base;
      }
@@ -24,7 +24,7 @@
 //    }
      @Override
     protected double getTaxAmount(){
-        double base=getBaseAmount();
+        double base= getbaseamount();
         double tax= base * Site.TAX_RATE;
          return tax;
     }
