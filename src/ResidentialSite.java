@@ -1,5 +1,5 @@
  class ResidentialSite extends Site{
-    public ResidentialSite(int unit, int rate, int tax_rate) {
+    public ResidentialSite(double unit, double rate, double tax_rate) {
         super(unit, rate, tax_rate);
     }
 
